@@ -1,0 +1,160 @@
+---
+title: |
+format:
+  html:
+    theme: litera
+    title-block-banner: true
+    number-sections: true
+    number-depth: 5
+    self-contained: true
+    toc: True
+    toc-title: Contents
+    toc-depth: 2
+    toc-location: left
+    fig-height: 9
+    fig-width: 5.5
+---
+
+![](images/logo.jpg){fig-align="center" width="5cm"}
+
+<center><b>MINISTRY OF HEALTH</b></center>
+
+<center><b>[NUTRITION</b>]{style="font-size: 22px;"}</center>
+
+```{r, include=FALSE}
+source("packages.R")
+source("functions.R")
+source("dhis2 version.R")
+```
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  echo = FALSE,  # hide all code chunks in output
+  warning = FALSE, # do not show warnings in the output word doc 
+  message = FALSE, # do not show  messages in the output word doc
+  fig.align = "center", # align all figs in center
+  fig.width=8,     # Figure width
+  fig.height=4.5,  # Figure height
+  fig.topcaption = TRUE  # show figure titles on top of plot
+)
+```
+
+<center><b>[MONTHLY REPORT -`r previousmonth`</b>]{style="font-size: 18px;"}</center>
+
+# NUTRITION REPORTING PERFORMANCE
+
+## Monthly trend of OPD and nutrition reporting rate 
+
+```{r}
+#(bar and  line graph )
+
+```
+
+## Reported nutrition assessment by region 
+
+```{r}
+#(dodged bar for both nutriotion and opd rr)
+
+```
+
+# NUTRITION ASSESSMENT STATUS
+
+
+## Trends in children aged 0-5months assessed for nutrition status (weight for age)
+
+```{r}
+#dodged bar(2months) regional
+```
+
+## District Distribution Percentag of children aged 0-5months assessed for nutrition status
+
+```{r}
+#maps, last4months
+
+```
+
+## Percentage of clients active on ART assessed for Malntrition at their visit
+
+```{r}
+#Dodged bar
+
+```
+
+## Percentage of children aged 6-59 months assessed for nutritional status (In OPD)
+
+```{r}
+#Dodged bar
+
+```
+
+
+## Percentage of children aged 6-59 months assessed for nutritional status using MUAC in the community
+
+```{r}
+#Dodged bar
+
+```
+
+# VITAMIN A SUPPLEMENTATION COVERAGE
+
+## Coverage of children aged 6-59 months who received vitamin A 1st & 2nd dose (Semester based)
+
+```{r}
+#current month map
+```
+
+# MANAGEMENT OF SEVERE ACUTE MALNUTRITION PERFORMANCE OUTCOMES
+# IN OTC
+
+## Cure rate
+
+```{r}
+#map
+
+```
+
+## Death
+
+```{r}
+#map
+
+```
+
+# IN ITC
+
+## Successfully Treated Rate
+
+```{r}
+#map
+
+```
+
+## Death rate
+
+```{r}
+alteredp_sum_table
+```
+
+# EARLY INITIATION OF BREASTFEEDING AND BIRTH OUTCOMES
+
+## Percentage of mothers who initiated breastfeeding within the first one hour after delivery (2months)
+
+```{r}
+#dodged bar
+
+```
+
+## Percentage of babies born with low birth weight across all region (2months)
+
+```{r}
+#dodged bar
+```
+
+
+## Percentage of pregnant women who received atleast 30 tablests of folic acid and iron sulphate at ANC 1st vist (2months)
+
+```{r}
+#dodged bar
+```
+
